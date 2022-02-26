@@ -23,11 +23,14 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 	* libGanglionScan.so: cannot open shared object file: No such file or directory
 		何故か，homeディレクトリにあったので移動（多分どっからかダウンロードした？）
 		mv libGanglionScan.so Downloads/OpenBCI_GUI/libGanglionScan.so
-	* その前にしたこと
-		id -Gn keito
-			dialoutが確認出来ていたので関係なかった
-		lsusb
-			無名のまま出る システムにデバイスファイルを移動してないせいか結局無名のまま
+
+	* その前にしたこと（Linux Users: Serial Port Permissions 参照）
+		* id -Gn keito
+		 	dialoutが確認出来ていたので関係なかった
+		* lsusb
+		 	無名のまま出る システムにデバイスファイルを移動してないせいか結局無名のまま
+		* watch 'dmesg | tail'
+			USBのデバイスドライバ名を調べた結果/dev/ttyACM0
 
 
 
