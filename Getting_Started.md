@@ -22,15 +22,18 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 1. Bluetoothの接続
 	* libGanglionScan.so: cannot open shared object file: No such file or directory
 		何故か，homeディレクトリにあったので移動（多分どっからかダウンロードした？）
+		```
 		mv libGanglionScan.so Downloads/OpenBCI_GUI/libGanglionScan.so
+		```
 
-	* その前にしたこと（Linux Users: Serial Port Permissions 参照）
+	* その前にしたこと（[Linux Users: Serial Port Permissions](https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/#installing-the-openbci-gui-as-a-standalone-application)参照）
 		* id -Gn keito
 		 	dialoutが確認出来ていたので関係なかった
 		* lsusb
 		 	無名のまま出る システムにデバイスファイルを移動してないせいか結局無名のまま
 		* watch 'dmesg | tail'
 			USBのデバイスドライバ名を調べた結果/dev/ttyACM0
+		* windowsは起動画面のままフリーズした(Windows Users: How to run the GUI with High DPI Screens参照)
 
 
 
