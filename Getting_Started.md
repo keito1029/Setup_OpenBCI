@@ -15,7 +15,7 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 	1. EEG電極：OpenBCIゴールドカップ電極、または独自の電極、および電極ペースト  
 	1. またはEMG電極：スナップ電極ケーブルおよびスナップ電極  
 	1. インターネットに接続されたコンピューター  
-1. GUIツールを[ダウンロード](https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/#installing-the-openbci-gui-as-a-standalone-application)し起動  
+1. GUIツールを[ダウンロード](https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/#installing-the-openbci-gui-as-a-standalone-application)し以下の様に起動 起動アイコン作ろうと思ったがエラーが出たら起動元のターミナル見れば大体原因が書いてあるので保留
 ```  
 ./Downloads/OpenBCI_GUI/OpenBCI_GUI  
 ```  
@@ -41,7 +41,6 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 	  
 #### memo  
 
-* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/) 長いので飛ばして良い  
 * OpenBCIガングリオンUSBドングル [追加購入](https://shop.openbci.com/products/ganglion-dongle)  
 * 自分のOpenBCI_GUIをgitに上げる際にコピーに時間がかかるのでrsync使った
 ```
@@ -50,4 +49,12 @@ rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
 * bluetoothトングルがあれば，PCがbluetooth機能オフ状態でも計測可能と思われる
 * 初回起動時のバッテリー電圧:5.39V
   
+#### Additional Information
+
+* 基本長いのでこのセットアップが終わるまでは要点だけ見て飛ばして良い 
+* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/) 
+* [GUIインターフェースの詳細](https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/) 
+* [Time Seriesおよびその他の組み込みウィジェット詳細](https://docs.openbci.com/Software/OpenBCISoftware/GUIWidgets/)
+* [生データの取得方法](https://docs.openbci.com/Ganglion/GanglionDataFormat/#binary-format)
+	* ただし、これはすでに多くのプログラミング言語とユースケースで[BrainFlow](https://docs.openbci.com/ForDevelopers/SoftwareDevelopment/#introducing-brainflow)によって適切に処理されています。
 
