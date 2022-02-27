@@ -47,6 +47,7 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 ```
 rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
 ```
+* bluetoothトングルがあれば，PCがbluetooth機能オフ状態でも計測可能と思われる
 * 初回起動時のバッテリー電圧:5.39V
   
 
