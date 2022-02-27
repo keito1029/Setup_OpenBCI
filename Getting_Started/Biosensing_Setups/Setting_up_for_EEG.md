@@ -28,7 +28,9 @@
   
 #### memo      
     
-* OpenBCIガングリオンUSBドングル [追加購入先](https://shop.openbci.com/products/ganglion-dongle)      
+-[ ] ピン配置をどこにするか[Ganglionハードウェア仕様](https://docs.openbci.com/Ganglion/GanglionSpecs/#inverting-input-select-switches)を見て決める      
+-[ ] チュートリアルにおける[cytonのピン配置](https://docs.openbci.com/GettingStarted/Biosensing-Setups/EEGSetup/#1-connect-your-electrodes-to-openbci)を見ながら実際にピンを配置 ただし使うヘッドキャップは異なる為，このピン配置とチュートリアルを参考にして良いのかわからない とにかくアルファ波が正常に計測できているのか知りたい
+-[ ] 19chのキャップにおける[ピン配置](https://docs.openbci.com/AddOns/Headwear/ElectrodeCap/)を見る しかし，これはcytonにおけるピン配置である為，ganglionのハードウェア仕様を参照しなければならない
      
 #### Additional Information    
     
