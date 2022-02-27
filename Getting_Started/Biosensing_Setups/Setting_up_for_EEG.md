@@ -13,7 +13,7 @@
   
 * この項目のアイテムがないので，[Related Headware](https://docs.openbci.com/GettingStarted/Biosensing-Setups/EEGSetup/#related-headware)より各ヘッドキャップにおける[Electrode Cap](https://docs.openbci.com/AddOns/Headwear/ElectrodeCap/)のセットアップを行う  
 	このリポジトリのHeadwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.mdを参照すること  
-	homeにcloneした際のvimエディタからの絶対パス  
+	homeにcloneした際のvimエディタからの絶対パスと[githubリンク](https://github.com/keito1029/Setup_OpenBCI/blob/master/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md)  
 	```  
 	: tabe ~/Setup_OpenBCI/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md  
 	```  
