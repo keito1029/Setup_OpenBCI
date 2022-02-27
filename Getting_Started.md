@@ -21,7 +21,7 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 ```  
 1. Bluetoothの接続  
 	* libGanglionScan.so: cannot open shared object file: No such file or directory  
-		何故か，homeディレクトリにあったので移動（多分どっからかダウンロードした？）  
+		恐らくjavaの設定でhomeディレクトリに起動に必要なライブラリがインストールされる様になっているので移動  
 		```  
 		mv libGanglionScan.so Downloads/OpenBCI_GUI/libGanglionScan.so  
 		```  
@@ -40,8 +40,13 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
   
 	  
 #### memo  
+
 	* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/) 長いので飛ばして良いかも  
 	* OpenBCIガングリオンUSBドングル [追加購入](https://shop.openbci.com/products/ganglion-dongle)  
 		* ドライバが認識出来ない場合Zadigドライバのインストールが必要かも  
+	* 自分のOpenBCI_GUIをgitに上げる際にコピーに時間がかかるのでrsync使った
+	```
+	rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
+	```
 	  
 
