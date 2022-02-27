@@ -41,13 +41,12 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 	  
 #### memo  
 
-	* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/) 長いので飛ばして良いかも  
-	* OpenBCIガングリオンUSBドングル [追加購入](https://shop.openbci.com/products/ganglion-dongle)  
-		* ドライバが認識出来ない場合Zadigドライバのインストールが必要かも  
-	* 自分のOpenBCI_GUIをgitに上げる際にコピーに時間がかかるのでrsync使った
-	```
-	rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
-	```
-	* 初回起動時のバッテリー電圧:5.39V
-	  
+* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/) 長いので飛ばして良い  
+* OpenBCIガングリオンUSBドングル [追加購入](https://shop.openbci.com/products/ganglion-dongle)  
+* 自分のOpenBCI_GUIをgitに上げる際にコピーに時間がかかるのでrsync使った
+```
+rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
+```
+* 初回起動時のバッテリー電圧:5.39V
+  
 
