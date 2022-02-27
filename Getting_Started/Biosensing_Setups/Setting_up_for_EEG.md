@@ -9,7 +9,8 @@
 	  
 * Ganglionボード4つのスイッチは、 EEGの場合は「DOWN」に設定する
 	既に全てDownになっていた
-* 
+* ピン配置は[Ultracortex Mark IV](https://docs.openbci.com/AddOns/Headwear/MarkIV/#ganglion-board-setup)を参照
+	左端のピン2つがイヤークリップで，残りの4つがチャンネル接続
 	
   
   
