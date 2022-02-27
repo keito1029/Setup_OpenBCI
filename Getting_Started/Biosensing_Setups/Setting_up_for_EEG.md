@@ -25,6 +25,7 @@ cytonは下部の両端がイヤークリップでその間にある残りのピ
 	```  
 	: tabe ~/Setup_OpenBCI/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md  
 	```  
+fp2 o2に接続
 1. Launch the GUI and adjust your channel settings  
   
   
