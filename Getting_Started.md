@@ -48,5 +48,6 @@ OpenBCIの使用を開始するために知っておく必要のあるすべて
 	```
 	rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
 	```
+	* 初回起動時のバッテリー電圧:5.39V
 	  
 
