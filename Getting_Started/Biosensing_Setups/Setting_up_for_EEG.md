@@ -11,6 +11,9 @@
 	既に全てDownになっていた
 * ピン配置は[Ultracortex Mark IV](https://docs.openbci.com/AddOns/Headwear/MarkIV/#ganglion-board-setup)を参照
 	左端のピン2つがイヤークリップで，残りの4つがチャンネル接続
+cytonは下部の両端がイヤークリップでその間にある残りのピンがチャンネル
+つまりチュートリアルはイヤークリップ×2とチャネル×2
+チュートリアルに沿うならばganglionに左端のピンにイヤークリップ×2，残りのピンにチャンネルピン接続×2
 	
   
   
