@@ -7,6 +7,10 @@
   
 * Ganglionボードへのピン接続  
 	  
+* Ganglionボード4つのスイッチは、 EEGの場合は「DOWN」に設定する
+	既に全てDownになっていた
+* 
+	
   
   
 1. Connect your electrodes to your head and body   
@@ -24,10 +28,11 @@
   
 #### memo      
     
-* OpenBCIガングリオンUSBドングル [追加購入](https://shop.openbci.com/products/ganglion-dongle)      
+* OpenBCIガングリオンUSBドングル [追加購入先](https://shop.openbci.com/products/ganglion-dongle)      
      
 #### Additional Information    
     
-* [ハードウェアの詳細](https://docs.openbci.com/Ganglion/GanglionLanding/)     
+* [Ganglionハードウェア仕様](https://docs.openbci.com/Ganglion/GanglionSpecs/#inverting-input-select-switches)     
+	Ganglionのオープンソースの回路やピン配置が書いてあってとても便利
   
 

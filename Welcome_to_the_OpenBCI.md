@@ -4,6 +4,8 @@
 * 各セクションの概要
 * [公開された研究とgist](https://openbci.com/citations)
 * デモ動画
+
+* [openBCI質問サイト](https://openbci.com/forum/)
         
 # I've download following to components        
         
