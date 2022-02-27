@@ -20,10 +20,10 @@ rsync -avrih ~/Downloads/OpenBCI_GUI/ ~/my_OpenBCI/
   
 * 各ヘッドキャップにおけるセットアップ
 
-このリポジトリのHeadwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.mdを参照すること
-homeにcloneした際のvimエディタからの絶対パス
-```
-: tabe ~/Setup_OpenBCI/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md
-```
+	このリポジトリのHeadwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.mdを参照すること
+	homeにcloneした際のvimエディタからの絶対パス
+	```
+	: tabe ~/Setup_OpenBCI/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md
+	```
 
 
