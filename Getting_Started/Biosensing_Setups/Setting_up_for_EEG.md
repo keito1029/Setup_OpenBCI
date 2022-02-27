@@ -25,7 +25,10 @@ cytonは下部の両端がイヤークリップでその間にある残りのピ
 	```  
 	: tabe ~/Setup_OpenBCI/Headwear_and_Electrodes/Electrode_Cap_Getting_Started_Guide.md  
 	```  
-fp2 o2に接続
+fp2 o2に接続  （Fpは前頭葉，Oは後頭葉を表す）
+shiftとチャンネル番号を押すことで取得チャンネルをカットできる
+目を閉じたとき最強のアルファ波信号が、後頭部のO2電極であるチャネル7に現れる
+mを押すか，動画を撮っておく
 1. Launch the GUI and adjust your channel settings  
   
   
